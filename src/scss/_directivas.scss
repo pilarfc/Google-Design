@@ -1,0 +1,12 @@
+@import 'variables'; 
+
+
+
+@for $i from 1 through 5 {
+    .lista-#{$i}{
+        font-size: $tamano-links;
+        text-transform: $mayusculas;
+        color: $color-titulos;
+    }
+}
+

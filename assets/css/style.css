@@ -1,3 +1,28 @@
+.lista-1 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #414549; }
+
+.lista-2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #414549; }
+
+.lista-3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #414549; }
+
+.lista-4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #414549; }
+
+.lista-5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #414549; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,6 +32,9 @@
   width: 100%;
   max-width: 1200px;
   margin: 0px auto; }
+
+.row {
+  width: 100%; }
 
 .row:before, .row:after {
   content: " ";
@@ -54,5 +82,8 @@
 
 .col-12 {
   width: 100%; }
+
+#logo {
+  padding-left: 35%; }
 
 /*# sourceMappingURL=style.css.map */
