@@ -16,3 +16,13 @@
     font-size: $size;
   }
 }
+    
+
+$clases: titulo-noticia;
+
+@each $titulo in $clases {
+    [class="#{$titulo}"] {
+        font-size: 24px;
+    }
+}
+
