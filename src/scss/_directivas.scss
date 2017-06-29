@@ -26,3 +26,11 @@ $clases: titulo-noticia;
     }
 }
 
+
+$clase-imagenes: resize-images; 
+
+@each $imagen in $clase-imagenes {
+    [class="#{$imagen}"] {
+        width: 100%;
+    }
+}
