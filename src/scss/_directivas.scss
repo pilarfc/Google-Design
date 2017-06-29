@@ -34,3 +34,19 @@ $clase-imagenes: resize-images;
         width: 100%;
     }
 }
+
+$clase-redondeo: image-radius; 
+
+@each $imagen in $clase-redondeo {
+    [class="#{$imagen}"] {
+        border-radius: 50%; 
+    }
+}
+
+$clase-autor: alinear-autor; 
+
+@each $texto in $clase-autor {
+    [class="#{$texto}"] {
+        display: inline-block;
+    }
+}

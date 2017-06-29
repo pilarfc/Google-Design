@@ -48,6 +48,12 @@
 [class="resize-images"] {
   width: 100%; }
 
+[class="image-radius"] {
+  border-radius: 50%; }
+
+[class="alinear-autor"] {
+  display: inline-block; }
+
 * {
   box-sizing: border-box;
   margin: .4%;
@@ -142,7 +148,16 @@
   color: white; }
 
 .no-link {
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: .875rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #5f6368;
+  font-family: Roboto Mono; }
+
+#asana {
+  width: 90px;
+  height: 90px; }
 
 #seccion-proyectos__texto {
   padding-top: 24px;

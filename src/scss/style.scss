@@ -95,6 +95,16 @@
 
 .no-link {
     text-decoration: none;
+    font-size: .875rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #5f6368;
+    font-family: Roboto Mono;
+}
+
+#asana {
+    width: 90px; 
+    height: 90px;
 }
 
 #seccion-proyectos__texto {
