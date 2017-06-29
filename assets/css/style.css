@@ -1,27 +1,46 @@
 .lista-1 {
+  display: inline;
   font-size: 14px;
   text-transform: uppercase;
-  color: #414549; }
+  color: #414549;
+  margin: 2%; }
 
 .lista-2 {
+  display: inline;
   font-size: 14px;
   text-transform: uppercase;
-  color: #414549; }
+  color: #414549;
+  margin: 2%; }
 
 .lista-3 {
+  display: inline;
   font-size: 14px;
   text-transform: uppercase;
-  color: #414549; }
+  color: #414549;
+  margin: 2%; }
 
 .lista-4 {
+  display: inline;
   font-size: 14px;
   text-transform: uppercase;
-  color: #414549; }
+  color: #414549;
+  margin: 2%; }
 
 .lista-5 {
+  display: inline;
   font-size: 14px;
   text-transform: uppercase;
-  color: #414549; }
+  color: #414549;
+  margin: 2%; }
+
+#h2-podcast {
+  font-size: 36px; }
+
+#h3-podcast {
+  font-size: 20px; }
+
+#p-podcast {
+  font-size: 16px; }
 
 * {
   box-sizing: border-box;
@@ -85,5 +104,14 @@
 
 #logo {
   padding-left: 35%; }
+
+#lista-general {
+  padding-left: 30%; }
+
+#lista-general a {
+  text-decoration: none; }
+
+#texto-podcast {
+  width: 70%; }
 
 /*# sourceMappingURL=style.css.map */

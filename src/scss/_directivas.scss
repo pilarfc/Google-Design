@@ -1,12 +1,18 @@
 @import 'variables'; 
 
 
-
 @for $i from 1 through 5 {
     .lista-#{$i}{
+        display: $alinear;
         font-size: $tamano-links;
         text-transform: $mayusculas;
         color: $color-titulos;
+        margin: 2%;
     }
 }
 
+@each $podcast, $size in (#h2-podcast: 36px, #h3-podcast: 20px, #p-podcast: 16px) {
+  #{$podcast} {
+    font-size: $size;
+  }
+}
