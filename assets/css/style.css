@@ -44,7 +44,7 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: .4%;
   padding: 0; }
 
 .container {
@@ -113,5 +113,17 @@
 
 #texto-podcast {
   width: 70%; }
+
+#seccion-newsfeed {
+  border-top: 4px solid #4285f4;
+  padding: 41px 0; }
+  #seccion-newsfeed h3 {
+    display: inline;
+    font-size: 24px; }
+  #seccion-newsfeed a {
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    color: #4285f4; }
 
 /*# sourceMappingURL=style.css.map */

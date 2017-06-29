@@ -3,7 +3,7 @@
 
 * {
     box-sizing: border-box;
-    margin:0;
+    margin:.4%;
     padding:0;
 }
 .container {
@@ -58,5 +58,20 @@
 
 #texto-podcast {
     width: 70%;
+}
+
+#seccion-newsfeed {
+    border-top: 4px solid $color-azul;
+    padding: 41px 0; 
+    h3{ 
+      display: inline;
+      font-size: 24px;
+    }
+    a{
+        text-decoration: none;
+        display: inline;
+        font-size: 14px;
+        color: $color-azul; 
+    }
 }
 
