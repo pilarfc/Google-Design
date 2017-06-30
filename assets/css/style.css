@@ -123,13 +123,13 @@
 #lista-general a {
   text-decoration: none; }
 
-#seccion-newsfeed, #seccion-proyectos, #seccion-proyectos__texto {
+#seccion-newsfeed, #seccion-proyectos, #seccion-brand, #seccion-proyectos__texto {
   border-top: 4px solid #4285f4;
   padding: 41px 0; }
-  #seccion-newsfeed h3, #seccion-proyectos h3, #seccion-proyectos__texto h3 {
+  #seccion-newsfeed h3, #seccion-proyectos h3, #seccion-brand h3, #seccion-proyectos__texto h3 {
     display: inline;
     font-size: 24px; }
-  #seccion-newsfeed a, #seccion-proyectos a, #seccion-proyectos__texto a {
+  #seccion-newsfeed a, #seccion-proyectos a, #seccion-brand a, #seccion-proyectos__texto a {
     text-decoration: none;
     display: inline;
     font-size: 14px;
@@ -143,9 +143,6 @@
   border-radius: 2px; }
   #correo img {
     display: inline; }
-
-#seccion-proyectos hr {
-  color: white; }
 
 .no-link {
   text-decoration: none;
@@ -161,6 +158,16 @@
 
 #seccion-proyectos__texto {
   padding-top: 24px;
+  font-family: Product Sans;
+  font-size: 24px;
+  line-height: 32px;
+  color: #424242;
+  letter-spacing: .28px; }
+
+#view {
+  text-align: right; }
+
+#texto-vr {
   font-family: Product Sans;
   font-size: 24px;
   line-height: 32px;
