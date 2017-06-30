@@ -129,3 +129,8 @@
     @include large-text;
 }
 
+#seccion-articulos {
+    @extend #seccion-proyectos;
+}
+
+

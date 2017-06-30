@@ -123,13 +123,13 @@
 #lista-general a {
   text-decoration: none; }
 
-#seccion-newsfeed, #seccion-proyectos, #seccion-brand, #seccion-proyectos__texto {
+#seccion-newsfeed, #seccion-proyectos, #seccion-brand, #seccion-articulos, #seccion-proyectos__texto {
   border-top: 4px solid #4285f4;
   padding: 41px 0; }
-  #seccion-newsfeed h3, #seccion-proyectos h3, #seccion-brand h3, #seccion-proyectos__texto h3 {
+  #seccion-newsfeed h3, #seccion-proyectos h3, #seccion-brand h3, #seccion-articulos h3, #seccion-proyectos__texto h3 {
     display: inline;
     font-size: 24px; }
-  #seccion-newsfeed a, #seccion-proyectos a, #seccion-brand a, #seccion-proyectos__texto a {
+  #seccion-newsfeed a, #seccion-proyectos a, #seccion-brand a, #seccion-articulos a, #seccion-proyectos__texto a {
     text-decoration: none;
     display: inline;
     font-size: 14px;
